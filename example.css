@@ -71,6 +71,10 @@ body {
 
 .home-content h3 {
   font-size: var(--h3-size);
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: var(--normal-color);
+}
+
+.home-content hr {
+  margin-bottom: 40px;
 }
