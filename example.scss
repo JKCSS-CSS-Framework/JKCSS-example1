@@ -6,6 +6,7 @@
     --back-color: black;
     --text-color: white;
     --logo-size: 30px;
+    --nav-font: 20px;
 }
 
 *{
@@ -35,4 +36,7 @@ body{
     font-size: var(--logo-size);
     text-decoration: none;
     font-weight: bold;
+}
+.nav-bar a{
+    font-size: var(--nav-font);
 }
