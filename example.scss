@@ -3,10 +3,11 @@
 // font-family: 'Roboto Slab', serif;
 
 :root{
-    --back-color: rgb(3, 17, 6);
+    --back-color: rgb(3, 4, 41);
     --text-color: white;
     --logo-size: 30px;
     --nav-font: 20px;
+    --hover-color: rgb(129, 19, 202);
 }
 
 *{
@@ -32,11 +33,19 @@ body{
     z-index: 1;
 }
 .site-logo{
-    color: white;
+    color: var(--text-color);
     font-size: var(--logo-size);
     text-decoration: none;
     font-weight: bold;
 }
 .nav-bar a{
     font-size: var(--nav-font);
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 40px;
+    transition: 0.5s;
+    color: var(--text-color)
+}
+.nav-bar a:hover{
+    color: var(--hover-color);
 }
