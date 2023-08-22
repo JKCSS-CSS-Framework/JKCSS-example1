@@ -32,4 +32,6 @@ body {
 .site-logo {
   color: white;
   font-size: var(--logo-size);
+  text-decoration: none;
+  font-weight: bold;
 }
