@@ -18,3 +18,14 @@ body{
     background-color: var(--back-color);
     color: var(--text-color);
 }
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
