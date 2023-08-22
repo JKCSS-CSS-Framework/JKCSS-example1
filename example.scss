@@ -9,6 +9,7 @@
     --nav-font: 20px;
     --hover-color: rgb(129, 19, 202);
     --h1-size: 60px;
+    --h3-size: 30px;
 }
 
 *{
@@ -64,5 +65,5 @@ body{
     font-size: var(--h1-size);
 }
 .home-content h3{
-    font-size: 40px;
+    font-size: var(--h3-size);
 }
