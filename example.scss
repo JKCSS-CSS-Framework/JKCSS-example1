@@ -4,6 +4,7 @@
 
 :root{
     --back-color: black;
+    --text-color: white;
 }
 
 *{
@@ -15,4 +16,5 @@
 
 body{
     background-color: var(--back-color);
+    color: var(--text-color);
 }
