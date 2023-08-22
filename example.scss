@@ -5,6 +5,7 @@
 :root{
     --back-color: black;
     --text-color: white;
+    --logo-size: 40px;
 }
 
 *{
@@ -28,4 +29,8 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+}
+.site-logo{
+    color: white;
+    font-size: var(--logo-size);
 }
