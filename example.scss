@@ -10,6 +10,7 @@
     --hover-color: rgb(129, 19, 202);
     --h1-size: 60px;
     --h3-size: 30px;
+    --normal-color: aqua;
 }
 
 *{
@@ -66,4 +67,6 @@ body{
 }
 .home-content h3{
     font-size: var(--h3-size);
+    margin-bottom: 40px;
+    color: var(--normal-color);
 }
