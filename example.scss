@@ -13,6 +13,7 @@
     --h3-size: 30px;
     --normal-color: aqua;
     --font-btn: 'Anton', sans-serif;
+    --text-color1: black;
 }
 
 *{
@@ -80,7 +81,7 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 400px;
 }
 
 .group-buttons a{
@@ -89,4 +90,15 @@ body{
     padding: 20px 40px;
     justify-content: center;
     align-items: center;
+    color: var(--text-color1);
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: aqua;
+}
+
+.group-buttons a:nth-child(2){
+    background: transparent;
+    color: var(--normal-color);
 }
