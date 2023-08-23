@@ -8,7 +8,7 @@
   --h1-size: 60px;
   --h3-size: 30px;
   --normal-color: aqua;
-  --font-btn: ;
+  --font-btn: "Anton", sans-serif;
 }
 
 * {
