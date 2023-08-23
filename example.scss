@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap');
 
+// font-family: 'Anton', sans-serif;
 // font-family: 'Roboto Slab', serif;
 
 :root{
@@ -11,6 +12,7 @@
     --h1-size: 60px;
     --h3-size: 30px;
     --normal-color: aqua;
+    --font-btn: 'Anton', sans-serif;
 }
 
 *{
@@ -77,6 +79,8 @@ body{
     margin: 20px 0;
     width: 400px;
     height: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 .home-content .group-buttons a{
     display: inline-flex;
