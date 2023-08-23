@@ -79,3 +79,18 @@ body {
 .home-content hr {
   margin-bottom: 40px;
 }
+
+.group-buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.group-buttons a {
+  display: inline-flex;
+  border: 1px solid aqua;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+}
