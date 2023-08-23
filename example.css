@@ -61,6 +61,9 @@ body {
   display: flex;
   align-items: center;
   padding: 0 10%;
+  background: url("https://wallpapercave.com/dwp1x/wp4286419.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .home-content {
@@ -116,4 +119,12 @@ body {
 
 .social-content a {
   text-decoration: none;
+  display: inline-flex;
+  padding: 0 10px;
+  transition: 0.5s;
+  color: var(--normal-color);
+}
+
+.social-content a:hover {
+  font-size: 15px;
 }
