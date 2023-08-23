@@ -106,3 +106,14 @@ body {
   background: transparent;
   color: var(--normal-color);
 }
+
+.social-content {
+  position: absolute;
+  bottom: 40px;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.social-content a {
+  text-decoration: none;
+}
