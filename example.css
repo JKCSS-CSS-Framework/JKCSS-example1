@@ -4,7 +4,7 @@
   --text-color: white;
   --logo-size: 30px;
   --nav-font: 20px;
-  --hover-color: rgb(129, 19, 202);
+  --hover-color: rgb(255, 255, 255);
   --h1-size: 60px;
   --h3-size: 30px;
   --normal-color: aqua;
@@ -49,7 +49,7 @@ body {
   font-weight: bolder;
   margin-left: 40px;
   transition: 0.5s;
-  color: var(--text-color);
+  color: var(--normal-color);
 }
 
 .nav-bar a:hover {
